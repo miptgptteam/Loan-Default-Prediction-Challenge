@@ -15,3 +15,11 @@ python3 baseline.py
 ```
 
 After running, check `submission.csv` for the predictions.
+
+## Requirements
+
+Install the dependencies from `requirements.txt` to run more advanced models:
+
+```bash
+pip install -r requirements.txt
+```
