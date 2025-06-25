@@ -1,5 +1,10 @@
+catboost
+category_encoders
+geocoder
+lightgbm
+matplotlib
 numpy
 pandas
 scikit-learn
+seaborn
 xgboost
-lightgbm
