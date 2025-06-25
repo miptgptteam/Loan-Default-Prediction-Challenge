@@ -8,6 +8,10 @@ This repository contains a simple baseline solution for the "Loan Default Predic
 
 Cross‑validation accuracy is around **0.78**, which corresponds to an error rate below **0.22**, slightly better than the trivial approach of predicting all ones.
 
+## Advanced model
+
+`sklearn_model.py` uses the libraries from `requirements.txt` to build a more powerful pipeline based on scikit‑learn. It performs one‑hot encoding of the categorical fields and fits a logistic regression with built‑in cross validation. In practice this approach yields an accuracy above **0.80** on the same 5‑fold split.
+
 ## Usage
 
 ```bash
